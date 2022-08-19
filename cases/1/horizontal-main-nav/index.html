@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Вёрстка навигационных элементов интерфейса – Кейс 1, лёгкий уровень. Основная навигация</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header class="container">
+        <nav class="main-nav">
+            <a class="main-nav__logo logo" href="index.html">
+                <img src="images/logo.svg" width="70" height="59" alt="Логотип">
+                <span class="visually-hidden">
+                    На главную
+                </span>
+            </a>
+
+            <ul class="main-nav__site-list site-list">
+                <li>
+                    <a class="site-list__item" href="#">
+                        О нас
+                    </a>
+                </li>
+                <li>
+                    <a class="site-list__item site-list__item--current" href="#">
+                        Преимущества
+                    </a>
+                </li>
+                <li>
+                    <a class="site-list__item" href="#">
+                        Цены
+                    </a>
+                </li>
+                <li>
+                    <a class="site-list__item" href="#">
+                        Акции
+                    </a>
+                </li>
+                <li>
+                    <a class="site-list__item" href="#">
+                        Отзывы
+                    </a>
+                </li>
+                <li>
+                    <a class="site-list__item" href="#">
+                        Контакты
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="main-nav__user-list user-list">
+                <li class="user-list__item">
+                    <a class="button button--secondary" href="#">
+                        Вход
+                    </a>
+                </li>
+                <li class="user-list__item">
+                    <a class="button" href="#">
+                        Регистрация
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

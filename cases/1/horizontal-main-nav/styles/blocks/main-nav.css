@@ -1,0 +1,19 @@
+.main-nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.main-nav__logo {
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+
+.main-nav__site-list {
+    margin-right: 30px;
+}
+
+.main-nav__user-list {
+    flex-shrink: 0;
+    margin-left: auto;
+}

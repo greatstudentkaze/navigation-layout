@@ -1,0 +1,10 @@
+:root {
+    --font-primary: "Roboto", "Arial", sans-serif;
+
+    --light-blue: #f8f7fd;
+    --black: #161517;
+    --blue: #0f00b6;
+    --white: #ffffff;
+
+    --primary: var(--blue);
+}

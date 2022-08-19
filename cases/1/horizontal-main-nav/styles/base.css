@@ -1,0 +1,34 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+*:focus-visible {
+    outline-color: var(--blue);
+    outline-offset: 4px;
+}
+
+body {
+    margin: 0;
+    /* fixed layout */
+    min-width: 1366px;
+
+    color: var(--black);
+    font-family: var(--font-primary);
+    font-size: 16px;
+    line-height: 1.1875;
+    font-style: normal;
+    font-weight: normal;
+
+    background-color: var(--light-blue);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
