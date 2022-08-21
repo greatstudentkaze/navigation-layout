@@ -1,0 +1,42 @@
+.link[href] {
+    position: relative;
+
+    display: inline-block;
+
+    color: var(--black);
+
+    border: none;
+    cursor: pointer;
+
+    transition: opacity 0.4s ease;
+}
+
+.link[href]::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+
+    width: 100%;
+    height: 2px;
+
+    background-color: var(--black);
+    transform: scaleX(0);
+    transform-origin: right;
+
+    transition: transform 0.3s ease;
+}
+
+.link--small[href]::before {
+    height: 1px;
+}
+
+.link[href]:hover::before,
+.link:focus-visible::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.link[href]:active {
+    opacity: 0.4;
+}
