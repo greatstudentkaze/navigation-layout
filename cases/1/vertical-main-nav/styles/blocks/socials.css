@@ -1,0 +1,31 @@
+.socials {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.socials li:not(:last-child) {
+    margin-right: 15px;
+}
+
+.socials__link {
+    display: inline-block;
+    padding: 5px;
+
+    transition:
+            transform 0.3s ease,
+            opacity 0.3s ease;
+}
+
+.socials__link:hover,
+.socials__link:focus-visible {
+    opacity: 0.6;
+}
+
+.socials__link:active {
+    transform: scale(0.95);
+}

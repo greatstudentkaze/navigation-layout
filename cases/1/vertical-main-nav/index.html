@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Вёрстка навигационных элементов интерфейса – Кейс 1, лёгкий уровень. Основная навигация: вертикальное меню</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body class="layout">
+    <nav class="layout__navigation main-nav">
+        <div class="main-nav__container">
+            <ul class="main-nav__list">
+                <li><a class="main-nav__link main-nav__link--current" href="#"><span>Завтраки</span></a></li>
+                <li><a class="main-nav__link" href="#"><span>Первые блюда</span></a></li>
+                <li><a class="main-nav__link" href="#"><span>Вторые блюда</span></a></li>
+                <li><a class="main-nav__link" href="#"><span>Десерты</span></a></li>
+                <li><a class="main-nav__link" href="#"><span>Выпечка</span></a></li>
+                <li><a class="main-nav__link" href="#"><span>Соусы</span></a></li>
+                <li><a class="main-nav__link" href="#"><span>Напитки</span></a></li>
+                <li><a class="main-nav__link" href="#"><span>Закуски</span></a></li>
+                <li><a class="main-nav__link" href="#"><span>Заготовки</span></a></li>
+            </ul>
+            <ul class="main-nav__list">
+                <li><a class="main-nav__link" href="#"><span>О посуде</span></a></li>
+                <li><a class="main-nav__link" href="#"><span>Лайфхаки</span></a></li>
+                <li><a class="main-nav__link" href="#"><span>Статьи</span></a></li>
+            </ul>
+            <ul class="socials">
+                <li>
+                    <a class="socials__link" href="#">
+                        <img src="images/socials/vk.svg" width="23" height="14" alt="Вконтакте">
+                        <span class="visually-hidden">Мы во Вконтакте</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="socials__link" href="#">
+                        <img src="images/socials/facebook.svg" width="9" height="18" alt="Фейсбук">
+                        <span class="visually-hidden">Мы в Фейсбуке</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="socials__link" href="#">
+                        <img src="images/socials/instagram.svg" width="18" height="18" alt="Инстаграм">
+                        <span class="visually-hidden">Мы в Инстаграме</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="layout__main">
+        <header class="header">
+            <a class="logo" href="/index.html">
+                <img src="images/logo.svg" width="170" height="51" alt="Логотип">
+                <span class="visually-hidden">На главную</span>
+            </a>
+        </header>
+
+        <main class="main container">
+            <div class="two-cols">
+                <div class="article-image">
+                    <img src="images/photo.jpg" srcset="images/photo@2x.jpg 2x" width="470" height="290" alt="Сырники в пудре и со сметаной">
+                </div>
+
+                <div>
+                    <ul class="breadcrumbs">
+                        <li><a class="breadcrumbs__link" href="#">Главная</a></li>
+                        <li><a class="breadcrumbs__link" href="#">Завтраки</a></li>
+                        <li><a class="breadcrumbs__link" href="#">Сырники</a></li>
+                    </ul>
+                    <div class="text-content">
+                        <h1 class="h1">Творожные сырники с&nbsp;бананом и&nbsp;шоколадом</h1>
+                        <p>Необычный вариант десерта, который особенно оценят сладкоежки — сырники с бананом и шоколадом. Растаявший шоколад внутри и румянная корочка — это невероятно вкусно, а&nbsp;также очень быстро в приготовлении!</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

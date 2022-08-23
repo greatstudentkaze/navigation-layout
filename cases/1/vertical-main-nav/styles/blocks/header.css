@@ -1,0 +1,7 @@
+.header {
+    margin-right: 98px;
+    margin-left: 30px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    border-bottom: 1px solid var(--grey);
+}

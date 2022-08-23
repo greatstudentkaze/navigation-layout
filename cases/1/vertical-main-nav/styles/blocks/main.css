@@ -1,0 +1,37 @@
+.main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text-content h1 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.article-image {
+    position: relative;
+    width: 470px;
+    height: 290px;
+    margin-top: 4px;
+}
+
+.article-image img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.two-cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+}

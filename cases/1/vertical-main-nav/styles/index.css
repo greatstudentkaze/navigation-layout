@@ -1,0 +1,13 @@
+@import "variables.css";
+@import "base.css";
+@import "typography.css";
+
+@import "blocks/visually-hidden.css";
+@import "blocks/container.css";
+@import "blocks/logo.css";
+@import "blocks/breadcrumbs.css";
+@import "blocks/socials.css";
+@import "blocks/main-nav.css";
+@import "blocks/layout.css";
+@import "blocks/header.css";
+@import "blocks/main.css";
