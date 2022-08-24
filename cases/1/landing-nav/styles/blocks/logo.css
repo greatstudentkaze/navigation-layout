@@ -1,0 +1,22 @@
+.logo {
+    display: block;
+    width: 66px;
+    height: 64px;
+}
+
+.logo[href] {
+    transition: opacity 0.3s ease;
+}
+
+.logo[href]:hover {
+    opacity: 0.6;
+}
+
+.logo[href]:active {
+    opacity: 0.4;
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+}

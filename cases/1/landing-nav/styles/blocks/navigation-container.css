@@ -1,0 +1,7 @@
+.navigation-container {
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+    color: var(--black);
+    background-color: var(--white);
+}
