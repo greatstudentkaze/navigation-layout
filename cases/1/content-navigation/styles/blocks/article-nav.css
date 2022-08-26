@@ -1,0 +1,39 @@
+.article-nav__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    counter-reset: num;
+}
+
+.article-nav li {
+    position: relative;
+    counter-increment: num;
+    padding-left: 23px;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.article-nav li::before {
+    content: counter(num) ".";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.article-nav li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.article-nav__link {
+    color: inherit;
+    transition: opacity 0.3s ease;
+}
+
+.article-nav__link:hover,
+.article-nav__link:focus-visible {
+    text-decoration: none;
+}
+
+.article-nav__link:active {
+    opacity: 0.6;
+}

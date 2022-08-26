@@ -1,0 +1,36 @@
+.breadcrumbs {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.breadcrumbs li {
+    display: inline;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.breadcrumbs li + li::before {
+    content: "/\00a0";
+    color: inherit;
+}
+
+.breadcrumbs li:last-child .breadcrumbs__link {
+    color: var(--grey);
+}
+
+.breadcrumbs__link {
+    color: inherit;
+    text-decoration: none;
+
+    transition: opacity 0.3s ease;
+}
+
+.breadcrumbs__link:hover,
+.breadcrumbs__link:focus-visible {
+    text-decoration: underline;
+}
+
+.breadcrumbs__link:active {
+    opacity: 0.6;
+}
